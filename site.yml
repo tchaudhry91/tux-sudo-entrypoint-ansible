@@ -1,0 +1,12 @@
+---
+
+- name: Create Users, Install Docker
+  hosts: all
+  remote_user: tchaudhry
+  become: yes
+  become_method: sudo
+
+  roles:
+    - base
+    - docker
+    - users

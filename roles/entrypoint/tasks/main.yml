@@ -31,6 +31,3 @@
   poll: 5
   args:
     chdir: /var/lib/tux-sudo
-
-- name: Certify
-  command: docker exec web /certify.sh

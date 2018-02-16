@@ -1,0 +1,5 @@
+tux-sudo.com {
+  tls tanmay.chaudhry@gmail.com
+
+  redir / blog.tux-sudo.com 301
+}

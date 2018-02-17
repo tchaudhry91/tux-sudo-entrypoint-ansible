@@ -1,5 +1,6 @@
 tux-sudo.com {
   tls tanmay.chaudhry@gmail.com
-
-  redir / blog.tux-sudo.com 301
+  log / stdout
+  proxy /metrics tux-sudo-entrypoint:9100
+  redir /blog https://blog.tux-sudo.com/ 301
 }
